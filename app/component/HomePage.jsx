@@ -2,7 +2,7 @@ import React from 'react';
 import homepage from '@/app/style/homepage.module.css';
 import AboutMe from '../component/AboutMe.jsx'
 
-export const HomePage = (params) => {
+const HomePage = (params) => {
     return (
         <div className={`${homepage.contentWrap}`}>
             <div className={`${homepage.flexContainer}`}>
@@ -11,3 +11,5 @@ export const HomePage = (params) => {
         </div>
 );
 }
+
+export default HomePage
