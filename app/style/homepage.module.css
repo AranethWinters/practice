@@ -1,0 +1,38 @@
+.pageContainer{
+    position:relative;
+    min-height: 100vh;
+}
+
+.contentWrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+    margin: 5vh 2.5vw 0;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.header{
+    background-image: url('../img/Carina-Nebula-Cosmic-Cliffs-NGC-3324-James-Webb-Space-Telescope-NIRCam.webp');
+    background-position: center;
+    padding: 10vh 5vw 5vh;
+}
+
+.title{
+    font-size: 6vh;
+    text-align: center;
+    color: white;
+}
+
+.contentText{
+    color:white;
+    text-align: center;
+}

@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <span id="intercom-viewport-meta"></span>
         {children}
       </body>
     </html>
