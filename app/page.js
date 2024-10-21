@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {HomePage} from "./page/home/page.jsx";
+import {HomePage} from "./home/page.jsx";
 import Header from "./component/Header.jsx";
 import Footer from "./component/Footer.jsx";
 import homestyle from "@/app/style/homepage.module.css";
