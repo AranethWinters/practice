@@ -4,7 +4,7 @@ import homepage from '@/app/style/homepage.module.css'
 import localFont from 'next/font/local';
 import NavBar from './NavBar.jsx';
 
-const myFont = localFont({src:'../fonts/Miguel De Northern.ttf'})
+const myFont = localFont({src:'../fonts/MiguelDeNorthern.ttf'})
 
 const Header = () => {
   return (
