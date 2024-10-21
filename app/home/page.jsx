@@ -1,9 +1,6 @@
 import React from 'react';
 import homepage from '@/app/style/homepage.module.css';
 import AboutMe from '../component/AboutMe.jsx'
-import localFont from 'next/font/local';
-
-const myFont = localFont({src:'../fonts/MiguelDeNorthern.ttf'})
 
 export const HomePage = (params) => {
     return (
