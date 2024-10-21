@@ -6,7 +6,7 @@ import Footer from '../component/Footer.jsx';
 
 const Skill = () => {
   return (
-    <div className='flex-col'>
+    <div className='flex-col relative min-h-screen'>
       <NavBar/>
       <Header title="Strengths and Skills"></Header>
       <Experience/>
