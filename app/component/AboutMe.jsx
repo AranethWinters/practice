@@ -2,7 +2,7 @@ import style from '@/app/style/about.module.css'
 import localFont from 'next/font/local';
 import Profile from './ProfileImage.jsx';
 
-const myFont = localFont({ src: '../fonts/Miguel de Northern.ttf' })
+const myFont = localFont({ src: '../fonts/MigueldeNorthern.ttf' })
 
 
 import React from 'react'
