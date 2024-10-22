@@ -16,12 +16,9 @@ const NavBar = () => {
             <div></div>
             <div className='hidden sm:flex'>
               <ul className="hidden sm:flex">
-                <Link href="/skills">
-                <li className='ml-10 uppercase hover:border-b text-xl'>Skills</li>
-                </Link>
-                <Link href="/contact">
-                <li className='ml-10 uppercase hover:border-b text-xl'>Contact Me</li>
-                </Link>
+                <li className='ml-10 uppercase hover:border-b text-xl'><Link href="/skills">Skills</Link></li>
+                
+                <li className='ml-10 uppercase hover:border-b text-xl'><Link href="/contact">Contact Me</Link></li>
               </ul>
             </div>
             <div onClick={handleNav} className='sm:hidden cursor-pointer pl-15'>
@@ -40,15 +37,9 @@ const NavBar = () => {
           </div>
           <div className="flex-col py-4">
               <ul>
-                <Link href="/">
-                <li onClick={()=>setMenuOpen(false)} className='py-4 cursor-pointer text-black'>Home</li>
-                </Link>
-                <Link href="/skills">
-                <li onClick={()=>setMenuOpen(false)} className='py-4 cursor-pointer text-black'>Skills</li>
-                </Link>
-                <Link href="/contact">
-                <li onClick={()=>setMenuOpen(false)} className='py-4 cursor-pointer text-black'>Contact</li>
-                </Link>
+                <li onClick={()=>setMenuOpen(false)} className='py-4 cursor-pointer text-black'><Link href="/">Home</Link></li>
+                <li onClick={()=>setMenuOpen(false)} className='py-4 cursor-pointer text-black'><Link href="/skills">Skills</Link></li>  
+                <li onClick={()=>setMenuOpen(false)} className='py-4 cursor-pointer text-black'><Link href="/contact">Contact</Link></li>
               </ul>
             </div>
         </div>

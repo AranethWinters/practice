@@ -25,9 +25,13 @@
     font-weight: 500;
     font-size: 7.5vh;
 }
+.section_title h1 {
+    font-weight: 500;
+    font-size: 7.5vh;
+}
 
 .experience-section {
-    padding: 12vh 0 20vh;
+    padding: 12vh 0 10vh;
     z-index: 0;
 }
 
