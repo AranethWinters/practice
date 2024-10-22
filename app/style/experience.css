@@ -73,7 +73,7 @@
     background-color: #cdcdcd;
     border-radius: 50px;
     position: relative;
-    z-index: 0;
+    z-index: -1;
 }
 
 .progress-line span{
@@ -85,9 +85,10 @@
     animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
     height: 100%;
     border-radius: 50px;
-    position: relative;
+    position: absolute;
     background-color: red;
     transition: 1s all;
+    z-index: -1;
 }
 
 .progress-line span.animate{
