@@ -7,7 +7,7 @@ const myFont = localFont({ src: '../fonts/MiguelDeNorthern.ttf' })
 const Experience = () => {
     const nextjsPercent = '50%'
     const d3Percent = '10%'
-    const csharpPercent = '50%'
+    const csharpPercent = '70%'
     const godotPercent = '60%'
   return (
     <div>
