@@ -1,5 +1,8 @@
 import React from 'react'
 import './../style/experience.css'
+import localFont from 'next/font/local'
+
+const myFont = localFont({ src: '../fonts/MiguelDeNorthern.ttf' })
 
 const Experience = () => {
     const nextjsPercent = '50%'
@@ -10,6 +13,9 @@ const Experience = () => {
     <div>
         <div className='experience-section' id='about'>
         <div className="container">
+            <div className="section_title center">
+                <h2 className={`text-center ${myFont.className}`}>My Languages and Frameworks</h2>
+            </div>
             <div className="experience-items">
                 <div className="experience-item">
                     <div className="experience-info">
