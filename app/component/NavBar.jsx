@@ -24,15 +24,15 @@ const NavBar = () => {
                 </Link>
               </ul>
             </div>
-            <div onClick={handleNav} className='sm:hidden cursor-pointer pl-24'>
+            <div onClick={handleNav} className='sm:hidden cursor-pointer pl-15'>
               <AiOutlineMenu size="25"/>
             </div>
         </div>
-        <div className={
-          menuOpen
-          ? "fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-          : "fixed left-[-100%] w-0 p-10 ease-in duration-500"
-        }>
+        <div
+        className={`fixed top-0 w-[65%] sm:hidden h-screen bg-[#ecf0f3] p-10 ease-in duration-500 z-50 ${
+          menuOpen ? "left-0" : "left-[-100%]"
+        }`}
+>
           <div className='flex w-full items-center justify-end'>
             <div onClick={handleNav} className='cursor-pointer text-black'>
               <AiOutlineClose size={25}/>

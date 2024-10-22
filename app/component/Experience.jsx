@@ -7,7 +7,8 @@ const Experience = () => {
     const csharpPercent = '50%'
     const godotPercent = '60%'
   return (
-    <div className='experience-section' id='about'>
+    <div>
+        <div className='experience-section' id='about'>
         <div className="container">
             <div className="experience-items">
                 <div className="experience-item">
@@ -48,6 +49,7 @@ const Experience = () => {
                 </div>
             </div>
         </div>
+    </div>
     </div>
   )
 }

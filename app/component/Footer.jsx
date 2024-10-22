@@ -6,7 +6,7 @@ import localFont from 'next/font/local';
 const Footer = () => {
   return (
     <div className={`${styles.footer}`}>
-            <p className='underline'>©2024</p>
+            <p className='underline font-sans'>©2024</p>
         </div>
   )
 }
