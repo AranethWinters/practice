@@ -43,10 +43,10 @@ const NavBar = () => {
                 <Link href="/">
                 <li onClick={()=>setMenuOpen(false)} className='py-4 cursor-pointer text-black'>Home</li>
                 </Link>
-                <Link href="\skills">
+                <Link href="/skills">
                 <li onClick={()=>setMenuOpen(false)} className='py-4 cursor-pointer text-black'>Skills</li>
                 </Link>
-                <Link href="/">
+                <Link href="/contact">
                 <li onClick={()=>setMenuOpen(false)} className='py-4 cursor-pointer text-black'>Contact</li>
                 </Link>
               </ul>
