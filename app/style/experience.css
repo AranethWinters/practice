@@ -36,6 +36,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     gap: 20px;
+    z-index: -1;
 }
 
 .experience-item {
@@ -43,6 +44,7 @@
     -ms-flex: 0 0 48%;
     flex: 0 0 48%;
     max-width: 48%;
+    z-index: -1;
 }
 
 .experience-info {
@@ -52,6 +54,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    z-index: -1;
 }
 
 .experience-info p {
@@ -62,12 +65,14 @@
     opacity: 1;
     -webkit-animation: showText 0.5s 1s linear forwards;
     animation: showText 0.5s 1s linear forwards;
+    z-index: -1;
 }
 
 .progress-line {
     margin-top: 7px;
     height: 10px;
     width: 100%;
+    background-color: #cdcdcd;
     border-radius: 50px;
     position: relative;
     z-index: -1;
