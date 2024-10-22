@@ -5,7 +5,7 @@ import contactStyles from './../style/contacts.module.css'
 
 const Contacts = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center pb-3'>
         <div className='flex text-center gap-2 flex-wrap'>
             <div className='flex flex-col justify-items-center items-center justify-center border-2 border-white p-10 rounded-[2rem]'>
                 <Link href="https://www.youtube.com/@pogeman2345">
