@@ -11,8 +11,8 @@ const NavBar = () => {
     setMenuOpen(!menuOpen)
   } 
   return (
-   <nav className='fixed w-full h-10 shadow-xl bg-black'>
-        <div className='flex justify-between items-center h-full w-full px-4 2xl:px-16'>
+   <nav className='fixed w-[100%] h-10 shadow-xl bg-black max-w-[90vw] mx-[7vh] object-center'>
+        <div className='flex justify-between items-center h-full w-full px-4 2xl:px-16 m-x'>
             <div></div>
             <div className='hidden sm:flex'>
               <ul className="hidden sm:flex">
